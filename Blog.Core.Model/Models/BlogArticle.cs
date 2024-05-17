@@ -21,7 +21,7 @@ namespace Blog.Core.Model.Models
         public string bsubmitter { get; set; }
 
         /// <summary>
-        /// 标题blog
+        /// 标题blogaa
         /// </summary>
         [SugarColumn(ColumnDataType = "nvarchar", Length = 256, IsNullable = true)]
         public string btitle { get; set; }
